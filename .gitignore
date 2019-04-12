@@ -1,0 +1,4 @@
+.DS_Store
+cookiecutter_rts_analysis/{{cookiecutter.directory_name}}/data/*
+cookiecutter_rts_analysis/{{cookiecutter.directory_name}}/models/*
+cookiecutter_rts_analysis/{{cookiecutter.directory_name}}/reports/*
