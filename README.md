@@ -1,9 +1,9 @@
 cookiecutter project for simple RTS data analysis.
 
 
-# Cookiecutter RTS Analysis
+# Cookiecutter python projects
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing RTS analysis._
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data analysis._
 
 
 #### [Project homepage](https://github.com/alfgarciagarcia/cookiecutter_rts_analysis)
@@ -11,7 +11,7 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 
 ### Requirements to use the cookiecutter template:
 -----------
- - Python 2.7 or 3.5
+ - Python 3.9 higher
  - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
 
 ``` bash
@@ -48,17 +48,15 @@ The directory structure of your new project looks like this:
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   ├── raw            <- The original, immutable data dump.
-│   ├── test	       <- Data to test models
-│   └── train	       <- Data to train models
-│
+│   ├── test	          <- Data to test models
+│   ├── train	         <- Data to train models
+|   └── reports        <- Generated analysis as HTML, PDF, Excel, etc.
+│       └── figures    <- Generated graphics and figures to be used in reporting
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model 	  │			   summaries
 │
-│
-├── reports            <- Generated analysis as HTML, PDF, Excel, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
+
 
 ```
 
