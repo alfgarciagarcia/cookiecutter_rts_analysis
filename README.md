@@ -1,5 +1,3 @@
-cookiecutter project for simple RTS data analysis.
-
 
 # Cookiecutter python projects
 
